@@ -1,15 +1,11 @@
 #include <iostream>
-#include <windows.h>
 #include <conio.h> // 用于 _kbhit() 和 _getch()
 #include <random>
 #include <chrono>
 #include <string>
 #include <iomanip>
 
-int main88888() {
-#pragma execution_character_set("utf-8");
-    SetConsoleOutputCP(CP_UTF8);
-
+int main() {
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> distrib(1, 100);
